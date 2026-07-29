@@ -1,0 +1,17 @@
+services:
+  glash:
+    image: gangz1o/glash:latest
+    container_name: glash
+    restart: always
+    ports:
+      - '${HTTP_PORT}:7890'
+      - '${SOCKS5_PORT}:7891'
+      - '${WEB_PORT}:9090'
+    volumes:
+      - ${ROOT_PATH}config:/mnt/storage1/app/mihomo
+    environment:
+      - TZ=Asia/Shanghai
+      - SUB_URL=${SUB_URL}
+      - SUB_CRON=0 */6 * * *
+      - SECRET=${PASSWORD}
+      - ALLOW_LAN=true

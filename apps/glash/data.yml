@@ -1,8 +1,7 @@
 additionalProperties:  
-    key: mcsmanager
-    name: MCSManager 
+    key: glash
+    name: Clash for Docker
     tags:  
-        - Game
         - Tool
     description:  
       en: (WEB + DAEMON)MCSManager is an open-source, distributed, out-of-the-box control panel that supports Minecraft and Steam game servers.
@@ -10,6 +9,6 @@ additionalProperties:
     type: tool
     crossVersionUpdate: true
     limit: 0
-    website: https://www.mcsmanager.com/
-    github: https://github.com/MCSManager/MCSManager
-    document: https://docs.mcsmanager.com/
+    website: https://github.com/gangz1o/clash4docker
+    github: https://github.com/gangz1o/clash4docker
+    document: https://github.com/gangz1o/clash4docker#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B

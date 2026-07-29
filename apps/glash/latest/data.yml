@@ -1,0 +1,44 @@
+additionalProperties:
+  formFields:
+    - default: "https://example.com/sub"
+      envKey: SUB_URL
+      labelEn: SUB_URL
+      labelZh: 订阅地址
+      required: true
+      type: string
+    - default: "./"
+      envKey: ROOT_PATH
+      labelEn: ROOT PATH
+      labelZh: 数据持久化路径
+      required: true
+      type: string
+    - default: 9090
+      envKey: WEB_PORT
+      labelEn: WEB PORT
+      labelZh: WEB控制台端口
+      required: true
+      type: number
+    - default: 7891
+      envKey: SOCKS5_PORT
+      labelEn: SOCKS5 PORT
+      labelZh: SOCKS5代理端口
+      required: true
+      type: number
+    - default: 7890
+      envKey: HTTP_PORT
+      labelEn: HTTP PORT
+      labelZh: HTTP代理端口
+      required: true
+      type: number
+    - default: 7892
+      envKey: PASSWORD
+      labelEn: password
+      labelZh: WEB控制台密码
+      required: true
+      type: password
+    - default: "0 */6 * * *"
+      envKey: SUB_CRON
+      labelEn: SUB_CRON
+      labelZh: 自动更新时间
+      required: true
+      type: string
