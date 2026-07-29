@@ -1,6 +1,6 @@
-name: 0-dkturbo
+name: dkturbo
 services:
-  0-dkturbo:
+  dkturbo:
     image: registry.cn-shenzhen.aliyuncs.com/cp0204/dkturbo:main
     container_name: dkturbo
     hostname: dkturbo
