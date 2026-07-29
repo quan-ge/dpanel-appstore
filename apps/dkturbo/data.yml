@@ -1,0 +1,14 @@
+additionalProperties:  
+    key: dkturbo
+    name: Dkturbo
+    tags:  
+        - Tool
+    description:  
+      en: Non-Chinese users don’t need to use
+      zh: Docker 镜像加速器，自动测速和应用最快镜像源。
+    type: tool
+    crossVersionUpdate: true
+    limit: 0
+    website: https://github.com/Cp0204/CasaOS-AppStore-Play
+    github: https://github.com/Cp0204/CasaOS-AppStore-Play
+    document: https://github.com/Cp0204/CasaOS-AppStore-Play

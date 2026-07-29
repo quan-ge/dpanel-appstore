@@ -1,0 +1,8 @@
+additionalProperties:
+  formFields:
+    - default: "auto"
+      envKey: REGISTRY
+      labelEn: REGISTRY
+      labelZh: 镜像源模式(默认即可)
+      required: true
+      type: string
