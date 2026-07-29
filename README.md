@@ -16,7 +16,7 @@
 
 ## 使用方法
 
-添加自定义应用商店：
+面板中添加自定义应用商店：
 
     https://github.com/quan-ge/dpanel-appstore
 
