@@ -1,10 +1,14 @@
 # QG-DPanel-Appstore
 
-一个DPanel的第三方应用商店
+一个DPanel的第三方应用商店（理论上支持1Panel）
 
-（理论上支持1Panel）
 
-本仓库主要收录官方仓库未收录的应用
+本仓库收录：
+ - 官方应用商店以及部分第三方仓库均未收录的应用
+ - 移植来自[CasaOS-AppStore-Play](ttps://github.com/Cp0204/CasaOS-AppStore-Play)的数据
+
+
+（大部分收录软件适用于NAS）
 
 ## 使用方法
 
