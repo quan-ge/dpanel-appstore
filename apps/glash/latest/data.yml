@@ -6,7 +6,7 @@ additionalProperties:
       labelZh: 订阅地址
       required: true
       type: string
-    - default: "./"
+    - default: "/ROOT_PATH/"
       envKey: ROOT_PATH
       labelEn: ROOT PATH
       labelZh: 数据持久化路径

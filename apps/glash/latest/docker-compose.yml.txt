@@ -8,7 +8,7 @@ services:
       - '${SOCKS5_PORT}:7891'
       - '${WEB_PORT}:9090'
     volumes:
-      - ${ROOT_PATH}config:/mnt/storage1/app/mihomo
+      - ${ROOT_PATH}/config:/mnt/storage1/app/mihomo
     environment:
       - TZ=Asia/Shanghai
       - SUB_URL=${SUB_URL}

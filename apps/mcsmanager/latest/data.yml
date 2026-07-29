@@ -6,7 +6,7 @@ additionalProperties:
       labelZh: 后端端口
       required: true
       type: number
-    - default: "./"
+    - default: "/ROOT_PATH/"
       envKey: ROOT_PATH
       labelEn: ROOT_PATH
       labelZh: 数据持久化路径

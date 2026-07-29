@@ -1,0 +1,14 @@
+version: '3'
+services:
+  sun-panel-helper:
+    image: madrays/sun-panel-helper:latest
+    container_name: sun-panel-helper
+    environment:
+      - BACKEND_PORT=${DAEMON_PORT}
+    ports:
+      - "${WEB_PORT}:80"
+    volumes:
+      - ${ROOT_PATH}/data:/app/backend/data
+      - ${ROOT_PATH}/backups:/app/backend/backups
+      - ${SPC_PATH}:/app/backend/custom
+    restart: unless-stopped
