@@ -20,15 +20,6 @@
 
 ## 说明
 
-
-> [!CAUTION]
->
-> # 本项目进入维护模式
->
-> 项目已进入维护模式，后续仅进行必要的维护与重大问题修复，不再主动开发新功能
->
-
-
 - 本项目采用 [Vue 3](https://cn.vuejs.org/) + [TypeScript](https://www.typescriptlang.org/) + [Naïve UI](https://www.naiveui.com/) + [Electron](https://www.electronjs.org/zh/docs/latest/) 开发
 - Node.js 版本要求：>= 20，包管理器：pnpm >= 10
 - 默认会构建原生模块，需准备 Rust 工具链；如仅需要网页端构建或暂时跳过，可设置环境变量 `SKIP_NATIVE_BUILD=true`
