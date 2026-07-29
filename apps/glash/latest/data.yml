@@ -4,41 +4,62 @@ additionalProperties:
       envKey: SUB_URL
       labelEn: SUB_URL
       labelZh: 订阅地址
+      label:
+        zh: 订阅地址
+        en: Subscription URL
       required: true
       type: string
     - default: "/ROOT_PATH/"
       envKey: ROOT_PATH
       labelEn: ROOT PATH
       labelZh: 数据持久化路径
+      label:
+        zh: 数据持久化路径
+        en: Root Path
       required: true
       type: string
     - default: 9090
       envKey: WEB_PORT
       labelEn: WEB PORT
       labelZh: WEB控制台端口
+      label:
+        zh: WEB控制台端口
+        en: WEB Console Port
       required: true
       type: number
     - default: 7891
       envKey: SOCKS5_PORT
       labelEn: SOCKS5 PORT
       labelZh: SOCKS5代理端口
+      label:
+        zh: SOCKS5代理端口
+        en: SOCKS5 Proxy Port
       required: true
       type: number
     - default: 7890
       envKey: HTTP_PORT
       labelEn: HTTP PORT
       labelZh: HTTP代理端口
+      label:
+        zh: HTTP代理端口
+        en: HTTP Proxy Port
       required: true
       type: number
     - default: 7892
       envKey: PASSWORD
       labelEn: password
       labelZh: WEB控制台密码
+      label:
+        zh: WEB控制台密码
+        en: WEB Console Password
       required: true
       type: password
     - default: "0 */6 * * *"
       envKey: SUB_CRON
       labelEn: SUB_CRON
       labelZh: 自动更新时间
+      label:
+        zh: 自动更新时间
+        en: Auto Update Time
       required: true
       type: string

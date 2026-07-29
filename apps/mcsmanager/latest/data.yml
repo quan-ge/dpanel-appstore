@@ -4,18 +4,27 @@ additionalProperties:
       envKey: DAEMON_PORT
       labelEn: DAEMON_PORT
       labelZh: 后端端口
+      label:
+        zh: 后端端口
+        en: Daemon Port
       required: true
       type: number
     - default: "/ROOT_PATH/"
       envKey: ROOT_PATH
       labelEn: ROOT_PATH
       labelZh: 数据持久化路径
+      label:
+        zh: 数据持久化路径
+        en: Root Path
       required: true
       type: string
     - default: 23333
       envKey: WEB_PORT
       labelEn: WEB_PORT
       labelZh: WEB端口
+      label:
+        zh: WEB端口
+        en: WEB Port
       required: true
       type: number
     

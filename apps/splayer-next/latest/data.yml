@@ -4,5 +4,8 @@ additionalProperties:
       envKey: WEB_PORT
       labelEn: WEB_PORT
       labelZh: WEB端口
+      label:
+        zh: WEB端口
+        en: WEB Port
       required: true
       type: number
