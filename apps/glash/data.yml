@@ -4,8 +4,8 @@ additionalProperties:
     tags:  
         - Tool
     description:  
-      en: (WEB + DAEMON)MCSManager is an open-source, distributed, out-of-the-box control panel that supports Minecraft and Steam game servers.
-      zh: (WEB + DAEMON)MCSManager 是一款开源，分布式，一键部署，支持 Minecraft 和 Steam 游戏服务器 的控制面板。
+      en: Fully compatible with all major protocol platforms, featuring an exquisite built-in UI panel, one-click deployment, and the world at your fingertips. ✨
+      zh: 主流协议平台全兼容，内置精美UI面板，一键部署，世界触手可及。✨
     type: tool
     crossVersionUpdate: true
     limit: 0
