@@ -12,10 +12,3 @@ additionalProperties:
       labelZh: 数据持久化路径
       required: true
       type: string
-    - default: 23333
-      envKey: WEB_PORT
-      labelEn: WEB_PORT
-      labelZh: WEB端口
-      required: true
-      type: number
-    

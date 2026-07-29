@@ -1,12 +1,12 @@
 additionalProperties:  
-    key: mcsmanager
-    name: MCSManager 
+    key: example
+    name: Example
     tags:  
         - Game
         - Tool
     description:  
-      en: (WEB + DAEMON)MCSManager is an open-source, distributed, out-of-the-box control panel that supports Minecraft and Steam game servers.
-      zh: (WEB + DAEMON)MCSManager 是一款开源，分布式，一键部署，支持 Minecraft 和 Steam 游戏服务器 的控制面板。
+      en: 简介
+      zh: 简介
     type: tool
     crossVersionUpdate: true
     limit: 0
