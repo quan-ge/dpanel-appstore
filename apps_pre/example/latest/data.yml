@@ -1,0 +1,21 @@
+additionalProperties:
+  formFields:
+    - default: 24444
+      envKey: DAEMON_PORT
+      labelEn: DAEMON_PORT
+      labelZh: 后端端口
+      required: true
+      type: number
+    - default: "/ROOT_PATH/"
+      envKey: ROOT_PATH
+      labelEn: ROOT_PATH
+      labelZh: 数据持久化路径
+      required: true
+      type: string
+    - default: 23333
+      envKey: WEB_PORT
+      labelEn: WEB_PORT
+      labelZh: WEB端口
+      required: true
+      type: number
+    
