@@ -7,7 +7,6 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - ${ROOT_PATH}/web/data:/opt/mcsmanager/web/data
       - ${ROOT_PATH}/web/logs:/opt/mcsmanager/web/logs
-
   daemon:
     image: githubyumao/mcsmanager-daemon:latest
     restart: unless-stopped

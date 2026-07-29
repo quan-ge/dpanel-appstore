@@ -1,15 +1,6 @@
 additionalProperties:
   formFields:
-    - default: 24444
-      envKey: DAEMON_PORT
-      labelEn: DAEMON_PORT
-      labelZh: 后端端口
-      label:
-        zh: 后端端口
-        en: Daemon Port
-      required: true
-      type: number
-    - default: "/ROOT_PATH/"
+    - default: "/DATA/AppData/mcsmanager"
       envKey: ROOT_PATH
       labelEn: ROOT_PATH
       labelZh: 数据持久化路径

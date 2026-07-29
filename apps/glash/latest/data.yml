@@ -9,7 +9,16 @@ additionalProperties:
         en: Subscription URL
       required: true
       type: string
-    - default: "/ROOT_PATH/"
+    - default: "1234567890"
+      envKey: PASSWORD
+      labelEn: password
+      labelZh: WEB控制台密码
+      label:
+        zh: WEB控制台密码
+        en: WEB Console Password
+      required: true
+      type: password
+    - default: "/DATA/AppData/glash"
       envKey: ROOT_PATH
       labelEn: ROOT PATH
       labelZh: 数据持久化路径
@@ -45,15 +54,6 @@ additionalProperties:
         en: HTTP Proxy Port
       required: true
       type: number
-    - default: 7892
-      envKey: PASSWORD
-      labelEn: password
-      labelZh: WEB控制台密码
-      label:
-        zh: WEB控制台密码
-        en: WEB Console Password
-      required: true
-      type: password
     - default: "0 */6 * * *"
       envKey: SUB_CRON
       labelEn: SUB_CRON
