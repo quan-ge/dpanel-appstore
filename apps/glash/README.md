@@ -1,18 +1,7 @@
-<div style="border: 1px solid #FFC107; padding: 10px; border-radius: 5px; color: #856404; background-color: #FFF3CD; display: inline-block; width: 100%; max-width: 60%; margin-top: 10px;">
-    <div style="display: flex; align-items: center;">
-        <span style="font-size: 24px; margin-right: 8px;">⚠️</span>
-        <div>
-            <strong style="font-size: 16px;">温馨提示</strong><br>
-            <span style="font-size: 14px; color: #333;">启动后访问：http://127.0.0.1:9090/ui/</span><br />
-            <span style="font-size: 14px; color: #333;">首次访问需要配置： <code>24444</code></span><br />
-            <span style="font-size: 14px; color: #333;">- 后端地址：`http://127.0.0.1:9090` <code>localhost</code> 或本机IP</span><br />
-            <span style="font-size: 14px; color: #333;">- 密钥：与你填写 一致 <code>24444</code></span><br />
-        </div>
-    </div>
-</div>
 
 
-# Clash for Docker介绍
+
+# Clash for Docker
 ![GitHub Repo stars](https://img.shields.io/github/stars/gangz1o/clash4docker?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/gangz1o/clash4docker?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/gangz1o/clash4docker?style=for-the-badge)
@@ -21,6 +10,31 @@
 ![Docker Pulls](https://img.shields.io/docker/pulls/gangz1o/glash?style=for-the-badge)
 
 🚀 基于最新 **Mihomo** 内核，内置 Dashboard 的 Clash Docker 镜像
+
+<div style="border: 1px solid #FFC107; padding: 10px; border-radius: 5px; color: #856404; background-color: #FFF3CD; display: inline-block; width: 100%; max-width: 60%; margin-top: 10px;">
+    <div style="display: flex; align-items: center;">
+        <span style="font-size: 24px; margin-right: 8px;">⚠️</span>
+        <div>
+            <strong style="font-size: 16px;">温馨提示</strong><br>
+            <span style="font-size: 14px; color: #333;">启动后访问：<code>http://127.0.0.1:9090/ui/</code></span><br />
+            <span style="font-size: 14px; color: #333;">首次访问需要配置：</span><br />
+            <span style="font-size: 14px; color: #333;">- 后端地址：<code>http://127.0.0.1:9090</code><br />
+            <span style="font-size: 14px; color: #333;">- 密钥：与你填写 一致 </span><br />
+        </div>
+    </div>
+</div>
+
+# <h1 style="font-size:34px;font-weight:700;background:linear-gradient(135deg,#3b82f6,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;padding:8px 0;">界面一览</h1>
+<details>
+  <summary style="cursor:pointer;font-size:24px;">点击展开</summary>
+    <img src="https://cdn.nodeimage.com/i/5Q9E9uQk9j6x9tkCSMu9MDxY56MYklUg.webp" alt="Image 1">
+    <img src="https://cdn.nodeimage.com/i/kWcCiiHfK3fmyFWQaC6Ndkh0vnfLj0lP.webp" alt="Image 2">
+    <img src="https://cdn.nodeimage.com/i/vA3jgJCQmhsLNVqoNWj8cKvqovJmX4QK.webp" alt="Image 3">
+    <img src="https://cdn.nodeimage.com/i/zDENCwikV4ZKAxrBwPjKsj3MXUYTpxiR.webp" alt="Image 4">
+    <img src="https://cdn.nodeimage.com/i/zDENCwikV4ZKAxrBwPjKsj3MXUYTpxiR.webp" alt="Image 5">
+    <img src="https://cdn.nodeimage.com/i/gvdOcbUtUASmKtlfKY7crcokkIQYY0nM.webp" alt="Image 6">
+</details>
+
 
 ## 核心特性
 
@@ -62,14 +76,4 @@
 | `SUB_USER_AGENT`   | 下载订阅时使用的 User-Agent，默认 `clash.meta`（可选）         | `clash.meta`              |
 | `DNS_OVERRIDE`     | DNS复写功能，此功能仅针对不含DNS规则内容的Clash订阅链接（可选）                 | `true` 或 `false`         |
 | `AUTHENTICATION`   | HTTP 基本认证凭据，格式 `username:password`，自动注入配置文件（可选） | `user:pass`               |
-
-
-## 界面一览
-
-![5Q9E9uQk9j6x9tkCSMu9MDxY56MYklUg.webp](https://cdn.nodeimage.com/i/5Q9E9uQk9j6x9tkCSMu9MDxY56MYklUg.webp)
-![kWcCiiHfK3fmyFWQaC6Ndkh0vnfLj0lP.webp](https://cdn.nodeimage.com/i/kWcCiiHfK3fmyFWQaC6Ndkh0vnfLj0lP.webp)
-![vA3jgJCQmhsLNVqoNWj8cKvqovJmX4QK.webp](https://cdn.nodeimage.com/i/vA3jgJCQmhsLNVqoNWj8cKvqovJmX4QK.webp)
-![zDENCwikV4ZKAxrBwPjKsj3MXUYTpxiR.webp](https://cdn.nodeimage.com/i/zDENCwikV4ZKAxrBwPjKsj3MXUYTpxiR.webp)
-![zDENCwikV4ZKAxrBwPjKsj3MXUYTpxiR.webp](https://cdn.nodeimage.com/i/zDENCwikV4ZKAxrBwPjKsj3MXUYTpxiR.webp)
-![gvdOcbUtUASmKtlfKY7crcokkIQYY0nM.webp](https://cdn.nodeimage.com/i/gvdOcbUtUASmKtlfKY7crcokkIQYY0nM.webp)
 

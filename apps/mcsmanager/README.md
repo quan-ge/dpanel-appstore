@@ -1,3 +1,8 @@
+</br>
+
+<div align="center"><a href="https://mcsmanager.com/" target="_blank"><img src="http://gp.quange.120322.xyz/https://github.com/MCSManager/MCSManager/blob/master/frontend/src/assets/logo.png?raw=true" alt="MCSManagerLogo.png" width="510px" /></a></div><br />
+
+
 <div style="border: 1px solid #FFC107; padding: 10px; border-radius: 5px; color: #856404; background-color: #FFF3CD; display: inline-block; width: 100%; max-width: 60%; margin-top: 10px;">
     <div style="display: flex; align-items: center;">
         <span style="font-size: 24px; margin-right: 8px;">⚠️</span>
@@ -12,32 +17,16 @@
     </div>
 </div>
 
-
-<div align="center">
-  <a href="https://mcsmanager.com/" target="_blank">
-    <img src="http://gp.quange.120322.xyz/https://github.com/MCSManager/MCSManager/blob/master/frontend/src/assets/logo.png?raw=true" alt="MCSManagerLogo.png" width="510px" />    
-  </a>
-
-  <br />
-  <br />
-
-[![--](https://img.shields.io/badge/Support-Windows/Linux-green.svg)](https://github.com/MCSManager)
-[![Status](https://img.shields.io/badge/npm-v8.9.14-blue.svg)](https://www.npmjs.com/)
-[![Status](https://img.shields.io/badge/node-v16.20.2-blue.svg)](https://nodejs.org/en/download/)
-[![Status](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://github.com/MCSManager)
-
-<p align="center">
-  <a href="http://mcsmanager.com/"><img alt="Official Website" src="https://img.shields.io/badge/Site-Official Website-green"></a>
-  <a href="https://discord.gg/BNpYMVX7Cd"><img alt="Discord" src="https://img.shields.io/badge/Discord-加入我们-5866f4"></a>
-  <a href="https://docs.mcsmanager.com/"><img alt="EnglishDocs" src="https://img.shields.io/badge/Docs-English Document-blue"></a>
-  <a href="https://docs.mcsmanager.com/zh-cn/"><img alt="Docs" src="https://img.shields.io/badge/Docs-中文文档-blue"></a>
-  <a href="https://docs.mcsmanager.com/"><img alt="赞助我们" src="https://img.shields.io/badge/CN-赞助我们-green"></a>
-</p>
+# <h1 style="font-size:34px;font-weight:700;background:linear-gradient(135deg,#3b82f6,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;padding:8px 0;">界面一览</h1>
+<details>
+  <summary style="cursor:pointer;font-size:24px;">点击展开</summary>
+    <img src="https://github.com/user-attachments/assets/570d2447-66dc-4c0b-b2d2-4c3176b51d67" alt="Image 1">
+    <img src="https://github.com/user-attachments/assets/7f6ed988-e402-4347-94ee-a0469f6658dap" alt="Image 2">
+    <img src="https://github.com/user-attachments/assets/2722cf9f-de9b-4630-b0ea-c00283791d8d" alt="Image 3">
+    <img src="https://github.com/user-attachments/assets/c7a3165c-466b-42c5-b75a-16ada603b1da" alt="Image 4">
+</details>
 
 
-</div>
-
-<br />
 
 ## 这是什么？
 
@@ -68,12 +57,3 @@ MCSM 同样也考虑了**商业应用**，例如由 **IDC 服务提供商**进�
 中文：https://docs.mcsmanager.com/zh_cn/
 
 
-<br />
-
-<img width="3164" height="2060" alt="1" src="https://github.com/user-attachments/assets/570d2447-66dc-4c0b-b2d2-4c3176b51d67" />
-
-<img width="1871" height="1342" alt="terminal" src="https://github.com/user-attachments/assets/7f6ed988-e402-4347-94ee-a0469f6658da" />
-
-<img width="3164" height="2060" alt="3" src="https://github.com/user-attachments/assets/2722cf9f-de9b-4630-b0ea-c00283791d8d" />
-
-<img width="3164" height="2060" alt="4" src="https://github.com/user-attachments/assets/c7a3165c-466b-42c5-b75a-16ada603b1da" />
