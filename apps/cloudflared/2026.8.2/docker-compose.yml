@@ -6,3 +6,4 @@ services:
     command: tunnel --no-autoupdate run --token ${CFD_TOKEN}
     labels:  
       createdBy: "Apps"
+    network_mode: host
