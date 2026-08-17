@@ -5,7 +5,7 @@
 ## 应用简介
 Cloudflare Tunnel 客户端。
 
-英文说明：Client for Cloudflare Tunnel.
+English：Client for Cloudflare Tunnel.
 
 ## 部署说明
 - 本应用使用 Docker Compose 在 1Panel 中部署。
