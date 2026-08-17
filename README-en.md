@@ -40,7 +40,7 @@
 
 ### 1. Image Container Adaptation
 
-This project only adapts the original `docker` image container operation for the `1Panel` app store. We do not make any express or implied warranties or representations about the validity of any original images, and we are not responsible for any consequences arising from the use of applications in this repository. Users assume all risks when using this project.
+This project only adapts the original `docker` image container operation for the `DPanel` app store. We do not make any express or implied warranties or representations about the validity of any original images, and we are not responsible for any consequences arising from the use of applications in this repository. Users assume all risks when using this project.
 
 ### 2. Compliance with Laws
 
@@ -58,7 +58,7 @@ Before using this repository, please ensure that you have read, understood, and 
 
 ## 1. Introduction
 
-This repository organizes application directories, metadata, form variables, and Docker Compose configurations according to the 1Panel v2 application specification. The goal is to make applications installable immediately after import, minimizing manual deployment and repetitive configuration.
+This repository organizes application directories, metadata, form variables, and Docker Compose configurations according to the DPanel v2 application specification. The goal is to make applications installable immediately after import, minimizing manual deployment and repetitive configuration.
 
 ## 2. Usage
 

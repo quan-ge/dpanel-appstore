@@ -1,12 +1,12 @@
 name: 应用适配需求 / App Request
-description: 申请为 okxlin/appstore 新增或适配一个 1Panel v2 应用 / Request a new or adapted 1Panel v2 app for okxlin/appstore.
+description: 申请为 okxlin/appstore 新增或适配一个 DPanel v2 应用 / Request a new or adapted DPanel v2 app for okxlin/appstore.
 title: "[App Request / 应用适配] "
 labels: ["type/request", "area/app-adaptation", "status/needs-info", "triage/needs-review"]
 body:
   - type: markdown
     attributes:
       value: |
-        请尽量提供官方来源和可复现 Docker 信息 / Please provide official source and reproducible Docker details. 信息完整后，维护者会先交给 1panel-app-adapter 适配，再用 1panel-test-targets 做 1Panel v2 部署测试 / Once complete, the maintainer will hand it to 1panel-app-adapter, then use 1panel-test-targets for 1Panel v2 deployment testing.
+        请尽量提供官方来源和可复现 Docker 信息 / Please provide official source and reproducible Docker details. 信息完整后，维护者会先交给 DPanel-app-adapter 适配，再用 DPanel-test-targets 做 DPanel v2 部署测试 / Once complete, the maintainer will hand it to DPanel-app-adapter, then use DPanel-test-targets for DPanel v2 deployment testing.
   - type: input
     id: app-name
     attributes:
@@ -104,10 +104,10 @@ body:
   - type: textarea
     id: test-notes
     attributes:
-      label: 1Panel 测试信息 / 1Panel test notes
+      label: DPanel 测试信息 / DPanel test notes
       description: 如果已经手动部署过，请填写版本、环境、结果和注意事项 / If you have already deployed it manually, include version, environment, result, and notes.
       placeholder: |
-        1Panel 版本 / 1Panel version:
+        DPanel 版本 / DPanel version:
         是否手动部署成功 / Manual deployment succeeded:
         失败日志或注意事项 / Failure logs or notes:
     validations:

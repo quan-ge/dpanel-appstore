@@ -1,6 +1,6 @@
 # cloudflared
 
-![cloudflared](https://raw.githubusercontent.com/quan-ge/dpanel-appstore/refs/heads/main/public/apps/cloudflared/logo.png)
+![cloudflared](https://fgp.120322.dpdns.org/https://raw.githubusercontent.com/quan-ge/dpanel-appstore/refs/heads/main/apps/cloudflared/logo.png)
 
 ## 应用简介
 Cloudflare Tunnel 客户端。
@@ -8,7 +8,7 @@ Cloudflare Tunnel 客户端。
 English：Client for Cloudflare Tunnel.
 
 ## 部署说明
-- 本应用使用 Docker Compose 在 1Panel 中部署。
+- 本应用使用 Docker Compose 在 DPanel 中部署。
 - 应用分类：工具。
 - 支持架构：amd64、arm64。
 - 可选版本：`latest`、`2026.6.1`。
@@ -20,7 +20,7 @@ English：Client for Cloudflare Tunnel.
 | CFD_TOKEN | Token | - | 是 |
 
 ## 使用说明
-- 安装完成后，在 1Panel 应用页面查看运行状态、端口和日志。
+- 安装完成后，在 DPanel 应用页面查看运行状态、端口和日志。
 - 首次启用前，请按安装表单填写域名、账号、密码、Token、数据目录等参数。
 - 如需对外开放访问，请同步检查防火墙、安全组和反向代理配置。
 

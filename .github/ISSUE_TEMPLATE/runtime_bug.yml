@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        请先移除 token、密码、真实域名、私有地址等敏感内容 / Remove tokens, passwords, real domains, private addresses, and other sensitive data first. 维护者会尽量用 1Panel v2 测试目标复现 / Maintainers will try to reproduce with a 1Panel v2 test target.
+        请先移除 token、密码、真实域名、私有地址等敏感内容 / Remove tokens, passwords, real domains, private addresses, and other sensitive data first. 维护者会尽量用 DPanel v2 测试目标复现 / Maintainers will try to reproduce with a DPanel v2 test target.
   - type: input
     id: app-key
     attributes:
@@ -24,7 +24,7 @@ body:
   - type: input
     id: panel-version
     attributes:
-      label: 1Panel 版本 / 1Panel version
+      label: DPanel 版本 / DPanel version
       placeholder: v2.x.x
     validations:
       required: true
