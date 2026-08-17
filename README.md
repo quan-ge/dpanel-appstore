@@ -28,9 +28,9 @@
   - [2. 法律遵守](#2-法律遵守)
   - [3. 免责声明接受](#3-免责声明接受)
 - [1. 简介](#1-简介)
-- [2. 贡献应用](#2-贡献应用)
+- [2. 使用方式](#2-使用方式)
+- [3. 贡献应用](#3-贡献应用)
 - [已下架应用](#已下架应用)
-- [3. 使用方式](#3-使用方式)
 
 </details>
 
@@ -60,7 +60,17 @@
 
 本仓库按 1Panel v2 应用规范组织应用目录、元数据、表单变量和 Docker Compose 配置，尽量做到导入后即可安装，减少手动部署和重复配置。
 
-## 2. 贡献应用
+## 2. 使用方式
+
+面板中添加自定义应用商店：
+
+    https://github.com/quan-ge/dpanel-appstore
+
+国内网络不佳请使用：
+
+    https://down.nigx.cn/github.com/quan-ge/dpanel-appstore
+
+## 3. 贡献应用
 
 > [!IMPORTANT]
 > 第三方开发者提交应用 PR 前，建议先使用 [okxlin/1panel-app-adapter](https://github.com/okxlin/1panel-app-adapter) 生成或校验应用包。它会检查 1Panel v2 目录结构、`data.yml`、`docker-compose.yml`、环境变量闭包、i18n 标签和常见发布问题，能减少返工。
@@ -70,13 +80,3 @@
 ## 已下架应用
 
 无法安装且没有可信替代镜像的应用会从活动目录移除，避免继续展示给新用户。下架原因和最后版本记录在 [`.github/retired-apps.yml`](.github/retired-apps.yml)，完整应用文件仍可从 Git 历史恢复。
-
-## 3. 使用方式
-
-面板中添加自定义应用商店：
-
-    https://github.com/quan-ge/dpanel-appstore
-
-国内网络不佳请使用：
-
-    https://down.nigx.cn/github.com/quan-ge/dpanel-appstore
