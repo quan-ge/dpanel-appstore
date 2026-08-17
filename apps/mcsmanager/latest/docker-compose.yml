@@ -1,0 +1,21 @@
+services:
+  web:
+    image: githubyumao/mcsmanager-web:latest
+    ports:
+      - "${WEB_PORT}:23333"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${ROOT_PATH}/web/data:/opt/mcsmanager/web/data
+      - ${ROOT_PATH}/web/logs:/opt/mcsmanager/web/logs
+  daemon:
+    image: githubyumao/mcsmanager-daemon:latest
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      - MCSM_DOCKER_WORKSPACE_PATH=${ROOT_PATH}/daemon/data/InstanceData
+    volumes:
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+      - ${ROOT_PATH}/daemon/data:/opt/mcsmanager/daemon/data
+      - ${ROOT_PATH}/daemon/logs:/opt/mcsmanager/daemon/logs
+      - /var/run/docker.sock:/var/run/docker.sock

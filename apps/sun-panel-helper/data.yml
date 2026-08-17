@@ -1,0 +1,14 @@
+additionalProperties:  
+    key: sun-panel-helper
+    name: Sun Panel Helper
+    tags:  
+        - Tool
+    description:  
+      en: A visual customization tool designed for Sun-Panel, adding the perfect finishing touch to your panel.
+      zh: 一款为 Sun-Panel 设计的可视化美化工具，让你的 Sun-Panel 锦上添花。
+    type: tool
+    crossVersionUpdate: true
+    limit: 0
+    website: https://helper.madrays.de/
+    github: https://github.com/madrays/sun-panel-helper
+    document: https://helper.madrays.de/guide/getting-started.html

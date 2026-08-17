@@ -1,0 +1,14 @@
+additionalProperties:  
+    key: splayer
+    name: Splayer
+    tags:  
+        - Media
+    description:  
+      en: A cross-platform music player.
+      zh: 跨平台桌面音乐播放器，支持丰富的歌词展现形式与广泛的音频格式
+    type: WebSite
+    crossVersionUpdate: true
+    limit: 0
+    website: https://splayer.imsyy.top/
+    github: https://github.com/SPlayer-Dev/SPlayer
+    document: https://splayer.imsyy.top/

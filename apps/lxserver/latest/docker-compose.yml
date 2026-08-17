@@ -1,0 +1,20 @@
+version: '3'
+services:
+  lx-sync-server:
+    image: xcq0607/lxserver:latest
+    container_name: lx-sync-server
+    restart: unless-stopped
+    ports:
+      - "${DAEMON_PORT}:9527"
+    volumes:
+      - .${APP_DATA}:/server/data
+      - .${APP_DATA}/logs:/server/logs
+      - .${APP_DATA}/cache:/server/cache
+      - .${APP_DATA}/music:/server/music
+    environment:
+      - NODE_ENV=production
+      - FRONTEND_PASSWORD=${FRONTEND_PASSWORD}
+      - ENABLE_WEBPLAYER_AUTH=${ENABLE_WEBPLAYER_AUTH}
+      - WEBPLAYER_PASSWORD=${WEBPLAYER_PASSWORD}
+      - ADMIN_PATH=${ADMIN_PATH}
+      - PLAYER_PATH=${PLAYER_PATH}

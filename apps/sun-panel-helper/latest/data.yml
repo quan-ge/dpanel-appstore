@@ -1,0 +1,36 @@
+additionalProperties:
+  formFields:
+    - default: "/path/to/sunpanel/conf/custom"
+      envKey: SPC_PATH
+      label:
+        zh: Sun-Panel的custom目录
+        en: Custom Directory of Sun-Panel Service
+      required: true
+      type: string
+    - default: "/DATA/AppData/sun-panel-helper"
+      envKey: ROOT_PATH
+      labelEn: ROOT PATH
+      labelZh: 数据持久化路径
+      label:
+        zh: 数据持久化路径
+        en: Root Path
+      required: true
+      type: string
+    - default: 33002
+      envKey: WEB_PORT
+      labelEn: WEB PORT
+      labelZh: WEB控制台端口
+      label:
+        zh: WEB控制台端口
+        en: WEB Console Port
+      required: true
+      type: number
+    - default: 3001
+      envKey: DAEMON_PORT
+      labelEn: DAEMON PORT
+      labelZh: 后端服务端口
+      label:
+        zh: 后端服务端口
+        en: Daemon Port
+      required: true
+      type: number

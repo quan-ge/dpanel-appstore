@@ -1,0 +1,15 @@
+additionalProperties:  
+    key: codimd
+    name: CodiMD
+    tags:  
+        - website
+        - Tool
+    description:  
+      en: CodiMD lets you collaborate in real-time with markdown. Built on HackMD source code, CodiMD lets you host and control your team's content with speed and ease.
+      zh: CodiMD 可让您使用 Markdown 进行实时协作。CodiMD 基于 HackMD 源代码构建，可让您快速、轻松地托管和控制团队内容。
+    type: website
+    crossVersionUpdate: true
+    limit: 0
+    website: https://github.com/hackmdio/codimd
+    github: https://github.com/hackmdio/codimd
+    document: https://github.com/hackmdio/codimd

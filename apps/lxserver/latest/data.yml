@@ -1,0 +1,70 @@
+additionalProperties:
+  formFields:
+    - default: 9527
+      envKey: DAEMON_PORT
+      labelEn: Daemon Port
+      labelZh: 后端端口
+      label:
+        zh: 后端端口
+        en: Daemon Port
+      required: true
+      type: number
+    - default: "/ROOT_PATH/"
+      envKey: APP_DATA
+      labelEn: Data Persistence Path
+      labelZh: 数据持久化路径
+      label:
+        zh: 数据持久化路径
+        en: Data Persistence Path
+      required: true
+      type: string
+    - default: "/"
+      envKey: PLAYER_PATH
+      labelEn: Player Path
+      labelZh: 播放器路径
+      label:
+        zh: 播放器路径
+        en: Player Path
+      required: true
+      type: string
+    - default: "/admin"
+      envKey: ADMIN_PATH
+      labelEn: Admin Path
+      labelZh: 管理界面路径
+      label:
+        zh: 管理界面路径
+        en: Admin Path
+      required: true
+      type: string
+    - default: "123456"
+      envKey: FRONTEND_PASSWORD
+      labelEn:  Admin Password
+      labelZh: 管理界面密码
+      label:
+        zh: 管理界面密码
+        en: Admin Password
+      required: true
+      type: string
+    - default: "123456"
+      envKey: WEBPLAYER_PASSWORD
+      labelEn:  Web Player Password
+      labelZh: 网页播放器密码
+      label:
+        zh: 网页播放器密码
+        en: Web Player Password
+      required: true
+      type: string
+    - default: "true"
+      envKey: ENABLE_WEBPLAYER_AUTH
+      labelEn: Enable Web Player Authentication
+      labelZh: 启用网页播放器认证
+      label:
+        zh: 启用网页播放器认证
+        en: Enable Web Player Authentication
+      required: true
+      type: select
+      values:  
+        - label: true  
+          value: "true"  
+        - label: false  
+          value: "false"  

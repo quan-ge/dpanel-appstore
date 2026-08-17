@@ -1,0 +1,14 @@
+additionalProperties:  
+    key: glash
+    name: Clash for Docker
+    tags:  
+        - Tool
+    description:  
+      en: Fully compatible with all major protocol platforms, featuring an exquisite built-in UI panel, one-click deployment, and the world at your fingertips. ✨
+      zh: 主流协议平台全兼容，内置精美UI面板，一键部署，世界触手可及。✨
+    type: tool
+    crossVersionUpdate: true
+    limit: 0
+    website: https://github.com/gangz1o/clash4docker
+    github: https://github.com/gangz1o/clash4docker
+    document: https://github.com/gangz1o/clash4docker#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B

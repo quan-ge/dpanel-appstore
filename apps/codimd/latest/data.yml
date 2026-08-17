@@ -1,0 +1,24 @@
+additionalProperties:
+  formFields:
+    - default: "3000"
+      edit: true
+      envKey: APP_PORT
+      label:
+        en: APP Port
+        zh: APP端口
+      required: true
+      type: number
+    - default: "1234567890"
+      envKey: POSTGRES_PASSWORD
+      label:
+        en: PostgreSQL Password
+        zh: 数据库密码
+      required: true
+      type: password
+    - default: "/DATA/AppData/codimd"
+      envKey: ROOT_PATH
+      label:
+        en: Root Path
+        zh: 数据目录
+      required: true
+      type: text

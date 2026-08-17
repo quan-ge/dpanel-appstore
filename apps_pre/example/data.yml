@@ -1,0 +1,15 @@
+additionalProperties:  
+    key: example
+    name: Example
+    tags:  
+        - Game
+        - Tool
+    description:  
+      en: 简介
+      zh: 简介
+    type: tool
+    crossVersionUpdate: true
+    limit: 0
+    website: https://www.mcsmanager.com/
+    github: https://github.com/MCSManager/MCSManager
+    document: https://docs.mcsmanager.com/

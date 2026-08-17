@@ -1,0 +1,73 @@
+{
+  "clearflask": [
+    "clearflask-connect",
+    "clearflask-server"
+  ],
+  "dootask": [
+    "dootask"
+  ],
+  "dify": [
+    "api",
+    "api_websocket",
+    "worker",
+    "worker_beat",
+    "web",
+    "sandbox"
+  ],
+  "diskover-linuxserver": [
+    "diskover"
+  ],
+  "flagsmith": [
+    "flagsmith"
+  ],
+  "godoxy": [
+    "godoxy"
+  ],
+  "kaneo": [
+    "kaneo"
+  ],
+  "karakeep": [
+    "karakeep"
+  ],
+  "immich": [
+    "immich-server"
+  ],
+  "librechat": [
+    "librechat-api",
+    "librechat-admin",
+    "librechat-rag-api"
+  ],
+  "manyfold-linuxserver": [
+    "manyfold"
+  ],
+  "netbox-linuxserver": [
+    "netbox"
+  ],
+  "paopao-ce": [
+    "paopao-ce"
+  ],
+  "rocketchat": [
+    "rocketchat"
+  ],
+  "safeline": [
+    "safeline-mgt"
+  ],
+  "teldrive": [
+    "teldrive"
+  ],
+  "unifi-network-application-linuxserver": [
+    "unifi-network-application"
+  ],
+  "uuwaf": [
+    "uuwaf"
+  ],
+  "weblate": [
+    "weblate"
+  ],
+  "wukongim": [
+    "wukongim"
+  ],
+  "zipline": [
+    "zipline"
+  ]
+}
